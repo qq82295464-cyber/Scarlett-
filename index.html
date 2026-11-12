@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  首屏定位语候选（页面当前使用第 1 条）：
+  1. 帮企业把 AI 真正用起来的 FDE                      ← 当前使用，最直白稳妥
+  2. 从需求到上线，驻场把 AI 落进业务里
+  3. 懂业务、懂 AI，也懂人：企业 AI 落地的前沿部署工程师
+  English: An FDE who helps companies actually put AI to work.
+
+  待确认：正式域名。下方 canonical / og:url / JSON-LD url / sitemap / robots
+  暂用 GitHub Pages 项目地址 https://qq82295464-cyber.github.io/Scarlett-/ ，
+  绑定自有域名后需统一替换。
+-->
+<title>曲若暚 Scarlett Quincy｜FDE 前沿部署工程师 · 企业 AI 落地 · GEO</title>
+<meta name="description" content="曲若暚（Scarlett Quincy）：2019 年起深耕企业级 AI 落地，现主攻 FDE（前沿部署工程师），帮企业把 AI 真正用进业务；同时提供 GEO（生成式引擎优化）服务，并在做 AI 回忆录产品。">
+<meta name="author" content="曲若暚 Scarlett Quincy">
+<meta name="keywords" content="FDE,前沿部署工程师,Forward Deployed Engineer,企业AI落地,GEO,生成式引擎优化,AI搜索优化,AI回忆录,曲若暚,Scarlett Quincy">
+<link rel="canonical" href="https://qq82295464-cyber.github.io/Scarlett-/">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f4f2f5">
+
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="曲若暚 Scarlett Quincy">
+<meta property="og:title" content="曲若暚 Scarlett Quincy｜帮企业把 AI 真正用起来的 FDE">
+<meta property="og:description" content="2019 年起深耕企业级 AI 落地，现主攻 FDE；同时提供 GEO（生成式引擎优化）服务，并在做 AI 回忆录产品。">
+<meta property="og:url" content="https://qq82295464-cyber.github.io/Scarlett-/">
+<meta property="og:image" content="https://qq82295464-cyber.github.io/Scarlett-/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "曲若暚",
+  "alternateName": ["Scarlett Quincy", "Sandy"],
+  "url": "https://qq82295464-cyber.github.io/Scarlett-/",
+  "image": "https://qq82295464-cyber.github.io/Scarlett-/assets/img/sandy-portrait.jpg",
+  "jobTitle": "Forward Deployed Engineer (FDE)",
+  "description": "自 2019 年起深耕企业级 AI 落地（项目管理、售前方案、需求分析、AI 训练），现主攻 FDE（前沿部署工程师），同时从事 GEO（生成式引擎优化）策略。",
+  "knowsAbout": ["Forward Deployed Engineering", "Enterprise AI deployment", "AI project management", "AI pre-sales solutions", "AI demand analysis", "AI training", "Prompt engineering", "Generative Engine Optimization (GEO)", "Cross-cultural communication (China–Japan)"],
+  "knowsLanguage": [
+    {"@type": "Language", "name": "Chinese", "alternateName": "zh"},
+    {"@type": "Language", "name": "Japanese", "alternateName": "ja"},
+    {"@type": "Language", "name": "English", "alternateName": "en"}
+  ],
+  "hasCredential": [
+    {"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "Master's Degree, Arts, Media, Cultural Communication & Advertising"},
+    {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "AI Project Management Certification"},
+    {"@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Senior AI Trainer Qualification"}
+  ],
+  "sameAs": ["https://x.com/Sandy16662221"]
+}
+</script>
+<script>
+  // 尽早应用语言，避免闪烁
+  (function () {
+    try {
+      var q = new URLSearchParams(location.search).get('lang');
+      var l = q || localStorage.getItem('lang');
+      if (l === 'en') document.documentElement.classList.add('lang-en');
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<a class="skip" href="#main"><span class="i-zh">跳到正文</span><span class="i-en">Skip to content</span></a>
+
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#top">曲若暚 <span>Scarlett Quincy</span></a>
+    <nav class="nav-wrap" aria-label="主导航">
+      <ul class="nav">
+        <li><a href="#about"><span class="i-zh">关于</span><span class="i-en">About</span></a></li>
+        <li><a href="#services"><span class="i-zh">服务</span><span class="i-en">Services</span></a></li>
+        <li><a href="#method"><span class="i-zh">方法</span><span class="i-en">Method</span></a></li>
+        <li><a href="#cases"><span class="i-zh">案例</span><span class="i-en">Projects</span></a></li>
+        <li><a href="#experience"><span class="i-zh">经历</span><span class="i-en">Experience</span></a></li>
+        <li><a href="#contact"><span class="i-zh">联系</span><span class="i-en">Contact</span></a></li>
+      </ul>
+    </nav>
+    <div class="lang" role="group" aria-label="语言 Language">
+      <button type="button" data-lang="zh" aria-pressed="true">中</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- 首屏 -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="wrap hero-in">
+      <p class="hero-name" aria-hidden="true">曲若暚</p>
+      <div class="hero-body">
+        <p class="hero-who">曲若暚 Scarlett Quincy · <span class="i-zh">前沿部署工程师（FDE）</span><span class="i-en">Forward Deployed Engineer</span></p>
+        <h1 id="hero-title">
+          <span class="i-zh">帮企业把 AI<br><span class="h1-light">真正用起来的 FDE</span></span>
+          <span class="i-en">An FDE who helps companies<br><span class="h1-light">actually put AI to work</span></span>
+        </h1>
+        <p class="hero-lead">
+          <span class="i-zh">2019 年起在 AI 行业做项目经理、售前方案、需求分析和 AI 训练。现在驻到业务现场，从梳理需求到方案上线，把 AI 落进企业真实的流程里。同时提供 GEO（生成式引擎优化）服务，并在做 AI 回忆录产品。</span>
+          <span class="i-en">Working in AI since 2019 as a project manager, pre-sales solutions engineer, demand analyst and senior AI trainer. Today I work on-site with teams, from scoping needs to going live, so AI fits the way the business really runs. I also offer GEO (Generative Engine Optimization) and am building an AI memoir product.</span>
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-solid" href="#contact"><span class="i-zh">联系我</span><span class="i-en">Get in touch</span></a>
+          <a class="btn btn-line" href="#services"><span class="i-zh">看我能做什么</span><span class="i-en">See what I do</span></a>
+        </div>
+      </div>
+
+    </div>
+
+      <p class="slide-foot" aria-hidden="true"><span class="i-zh">曲若暚 Scarlett Quincy</span><span class="i-en">Scarlett Quincy</span></p>
+  </section>
+
+  <section class="hero-media" aria-label="照片与要点">
+    <div class="wrap">
+      <figure class="hero-photo">
+        <img src="assets/img/sandy-portrait.jpg" width="480" height="600" alt="曲若暚 Scarlett Quincy 在正式会议上">
+      </figure>
+      <dl class="facts">
+        <div><dt><span class="i-zh">AI 行业</span><span class="i-en">In AI</span></dt><dd><span class="i-zh">2019 年至今</span><span class="i-en">Since 2019</span></dd></div>
+        <div><dt><span class="i-zh">跨文化经验</span><span class="i-en">Cross-cultural</span></dt><dd><span class="i-zh">15 年以上，日本 · 东南亚 · 中国</span><span class="i-en">15+ years, Japan · SE Asia · China</span></dd></div>
+        <div><dt><span class="i-zh">工作语言</span><span class="i-en">Languages</span></dt><dd><span class="i-zh">中文 · 日语 · 英语</span><span class="i-en">Mandarin · Japanese · English</span></dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- 关于我 -->
+  <section class="sec" id="about" aria-labelledby="about-title">
+    <div class="wrap split">
+      <h2 id="about-title"><span class="i-zh">关于我</span><span class="i-en">About</span><span class="sub"><span class="i-zh">从业务现场看技术</span><span class="i-en">Technology, seen from the business side</span></span></h2>
+      <div class="prose">
+        <p class="i-zh">我叫曲若暚，英文名 Scarlett Quincy，朋友叫我 Sandy。自 2019 年起，我在 AI 行业先后做过 AI 项目经理、AI 售前解决方案工程师、AI 需求分析工程师、AI 硬件解决方案工程师和高级 AI 训练师，主导企业级 AI 部署，设计端到端的集成方案，也负责把复杂的 AI 能力讲成面向决策层、以投入产出为导向的商业方案。</p>
+        <p class="i-zh">现在我主攻 FDE（前沿部署工程师）：不只交一份方案，而是到业务现场，和团队一起把 AI 用起来。同时，我为个人和品牌做 GEO 策略，让内容更容易被 ChatGPT、Claude、Perplexity、百度 AI 问答等 AI 搜索看到和引用。</p>
+        <p class="i-zh">进入 AI 行业之前，我在影视传媒、市场营销和独立创业里做了很多年：20 岁开了以日式花艺为核心的精品花店，在日本做过六年中日贸易和影视制作协调，也做过通航、影视公司的市场总监。这些经历让我习惯站在业务和客户那一边看技术。</p>
+        <p class="i-zh quote">我相信 AI 是人类智慧最强的放大器，而不是替代品。最有价值的人，是把情商、跨文化理解和 AI 素养结合在一起的人。</p>
+
+        <p class="i-en">I'm Scarlett Quincy (Sandy), Chinese name 曲若暚. Since 2019 I've worked across the AI value chain as AI Project Manager, AI Pre-Sales Solutions Engineer, AI Demand Analysis Engineer, AI Hardware Solutions Engineer and Senior AI Trainer, leading enterprise AI deployments, designing end-to-end integrations, and turning AI capabilities into ROI-focused proposals for decision-makers.</p>
+        <p class="i-en">My focus now is forward deployed engineering: working on-site with teams until AI is actually in use, not just handing over a slide deck. I also run GEO strategy for individuals and brands, so their content is easier for ChatGPT, Claude, Perplexity and Baidu AI answers to find and cite.</p>
+        <p class="i-en">Before AI, I spent years in film and media, marketing and entrepreneurship: I founded a Japanese ikebana–inspired floral boutique at 20, spent six years in Japan–China trade and film production coordination, and served as marketing director for aviation and film companies. That keeps me looking at technology from the business and customer side.</p>
+        <p class="i-en quote">AI is the most powerful amplifier of human intelligence, not a replacement. The most valuable professionals combine emotional intelligence, cultural fluency and AI literacy.</p>
+      </div>
+    </div>
+      <p class="slide-foot" aria-hidden="true"><span class="i-zh">关于我</span><span class="i-en">About</span></p>
+  </section>
+
+  <!-- 服务 -->
+  <section class="sec sec-tint" id="services" aria-labelledby="services-title">
+    <div class="wrap">
+      <h2 id="services-title"><span class="i-zh">我能帮你做什么</span><span class="i-en">How I can help</span><span class="sub"><span class="i-zh">三件事，一个目标：让 AI 真正有用</span><span class="i-en">Three services, one goal: AI that actually works</span></span></h2>
+      <div class="services">
+        <article class="svc svc-main">
+          <h3><span class="i-zh">FDE 企业 AI 落地</span><span class="i-en">FDE: enterprise AI deployment</span></h3>
+          <p class="svc-lede"><span class="i-zh">AI 买了、试了，却没真正进到业务里？我驻到现场，把它接进你的流程。</span><span class="i-en">Bought or piloted AI that never made it into daily work? I come on-site and wire it into your workflows.</span></p>
+          <ul>
+            <li><span class="i-zh">梳理业务痛点，做需求分析，判断哪些环节值得用 AI</span><span class="i-en">Map pain points and analyze demand to find where AI is worth it</span></li>
+            <li><span class="i-zh">设计端到端集成方案，给决策层讲清投入产出</span><span class="i-en">Design end-to-end integration and make the ROI case to decision-makers</span></li>
+            <li><span class="i-zh">陪团队上线：提示词、训练方案与数据集、效果调优</span><span class="i-en">Go live with the team: prompts, training plans and datasets, tuning</span></li>
+            <li><span class="i-zh">需要时提供 AI 硬件集成建议</span><span class="i-en">Advise on AI hardware integration when needed</span></li>
+          </ul>
+        </article>
+        <article class="svc">
+          <h3><span class="i-zh">GEO 让 AI 搜索找到你</span><span class="i-en">GEO: get found by AI search</span></h3>
+          <p class="svc-lede"><span class="i-zh">越来越多人直接问 AI。GEO 让你的品牌出现在 AI 的回答里。</span><span class="i-en">More people now just ask AI. GEO puts your brand in the answer.</span></p>
+          <ul>
+            <li><span class="i-zh">优化在 ChatGPT、Claude、Perplexity、百度 AI 问答中的可见度</span><span class="i-en">Visibility in ChatGPT, Claude, Perplexity and Baidu AI answers</span></li>
+            <li><span class="i-zh">知乎、百度经验、抖音等平台内容策略</span><span class="i-en">Content strategy for Zhihu, Baidu Jingyan, Douyin and more</span></li>
+            <li><span class="i-zh">第一人称叙事型内容，建立自然的权威感，中英双语</span><span class="i-en">First-person narrative content that builds quiet authority, in Chinese and English</span></li>
+          </ul>
+        </article>
+        <article class="svc">
+          <h3><span class="i-zh">AI 人生回忆录</span><span class="i-en">AI life memoir</span></h3>
+          <p class="svc-lede"><span class="i-zh">用科技温暖记忆，用专业珍藏人生。把一个人的故事写成书，留给家人。</span><span class="i-en">Technology that warms memories, craft that keeps a life. A person's story, written into a book for the family.</span></p>
+          <ul>
+            <li><span class="i-zh">真人访谈：访谈师上门或线上，引导讲出人生故事</span><span class="i-en">Interviews in person or online, guided storytelling</span></li>
+            <li><span class="i-zh">AI 赋能增色：故事化整理、老照片修复上色、场景插画</span><span class="i-en">AI enrichment: story editing, photo restoration and colorizing, scene illustrations</span></li>
+            <li><span class="i-zh">印刷交付：布面烫金精装等装帧</span><span class="i-en">Printed and delivered, e.g. cloth-bound with gold foil</span></li>
+            <li><span class="i-zh">体验版、标准版、典藏版三档套餐，欢迎咨询</span><span class="i-en">Three packages: Essential, Standard and Heirloom. Ask for details</span></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+      <p class="slide-foot" aria-hidden="true"><span class="i-zh">服务</span><span class="i-en">Services</span></p>
+  </section>
+
+  <!-- 工作方法 -->
+  <section class="sec" id="method" aria-labelledby="method-title">
+    <div class="wrap">
+      <h2 id="method-title"><span class="i-zh">我怎么工作</span><span class="i-en">How I work</span><span class="sub"><span class="i-zh">诊断、原型、落地、复盘</span><span class="i-en">Diagnose, prototype, deploy, review</span></span></h2>
+      <ol class="method">
+        <li>
+          <h3><span class="i-zh">诊断</span><span class="i-en">Diagnose</span></h3>
+          <p><span class="i-zh">先到业务里看流程、看数据、听一线怎么说，找出真正值得用 AI 的环节，把事实、推断和假设分开写清楚。</span><span class="i-en">Start inside the business: walk the workflows, look at the data, listen to the front line. Find where AI is worth it, and keep facts, inferences and assumptions apart.</span></p>
+        </li>
+        <li>
+          <h3><span class="i-zh">原型</span><span class="i-en">Prototype</span></h3>
+          <p><span class="i-zh">用最小的范围快速做出能跑的原型，让决策层和使用者都能亲手试，再决定要不要投入。</span><span class="i-en">Build a small working prototype fast, so decision-makers and users can try it before committing.</span></p>
+        </li>
+        <li>
+          <h3><span class="i-zh">落地</span><span class="i-en">Deploy</span></h3>
+          <p><span class="i-zh">接进现有系统和流程，配好提示词、知识库和验收标准，陪团队用到顺手为止。</span><span class="i-en">Wire it into existing systems and workflows with prompts, knowledge bases and acceptance criteria, and stay with the team until it feels natural.</span></p>
+        </li>
+        <li>
+          <h3><span class="i-zh">复盘</span><span class="i-en">Review</span></h3>
+          <p><span class="i-zh">每次交付都写复盘，把有效的做法沉淀成可复用的方法和技能，下一个项目直接用上。</span><span class="i-en">Every delivery ends with a written review; what worked becomes a reusable method for the next project.</span></p>
+        </li>
+      </ol>
+    </div>
+      <p class="slide-foot" aria-hidden="true"><span class="i-zh">工作方法</span><span class="i-en">Method</span></p>
+  </section>
+
+  <!-- 项目案例 -->
+  <section class="sec sec-tint" id="cases" aria-labelledby="cases-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="cases-title"><span class="i-zh">项目与实践</span><span class="i-en">Projects &amp; practice</span><span class="sub"><span class="i-zh">方案、案例与自用实践</span><span class="i-en">Plans, cases and my own practice</span></span></h2>
+        <p class="sec-note"><span class="i-zh">为企业做的 AI 落地方案、GEO 案例、回忆录作品，以及我先用在自己身上的 AI 实践。客户企业名称一律隐去。</span><span class="i-en">AI deployment plans for companies, GEO cases, a memoir, and AI systems I built for myself first. Client company names are withheld.</span></p>
+      </div>
+
+      <!-- ============ FDE ============ -->
+      <div class="case-group">
+        <h3 class="cg-title"><span class="i-zh">FDE · 企业 AI 落地</span><span class="i-en">FDE · enterprise AI</span></h3>
+        <div class="cases">
+
+          <!-- 来源：deck-a.pptx（建议稿，2026-10）。仅方案，无执行结果。 -->
+          <article class="case case-wide">
+            <div class="case-main">
+              <p class="case-tags"><span class="case-tag"><span class="i-zh">企业方案</span><span class="i-en">Client plan</span></span><span class="case-status"><span class="i-zh">方案设计阶段，执行结果待补充</span><span class="i-en">Plan stage; results to be added</span></span></p>
+              <h4><span class="i-zh">某制造企业：技术资料解析 AI POC 方案</span><span class="i-en">A manufacturer: AI POC for parsing technical documents</span></h4>
+              <dl>
+                <div><dt><span class="i-zh">行业</span><span class="i-en">Industry</span></dt><dd><span class="i-zh">制造业（含外贸订单业务）</span><span class="i-en">Manufacturing, with export orders</span></dd></div>
+                <div><dt><span class="i-zh">问题</span><span class="i-en">Problem</span></dt><dd><span class="i-zh">复杂组合线的图纸和技术资料层级多、格式不统一，报价和下单前都要靠人工拆解。企业想先用小样本验证：AI 能不能把最难的技术资料变成报价、下单真正能用的结构化数据。</span><span class="i-en">Drawings and technical documents for complex assembly lines are multi-level and non-standard, so quoting and ordering depend on manual breakdown. The goal: prove on a small sample that AI can turn the hardest documents into structured data that quoting and ordering can actually use.</span></dd></div>
+                <div><dt><span class="i-zh">方案</span><span class="i-en">Approach</span></dt><dd><span class="i-zh">不重建 CRM、ERP、MES，只在现有数据底座上加一层 AI 工作台。主 POC 做技术资料解析，辅验证用 20–30 封脱敏海外邮件离线解析订单，暂不写入 CRM。数据安全走两条路线：默认脱敏 API 先行，同步评估专用推理或本地模型。划三道红线：不自动对外报价、不做原产地和关税最终判定、不承诺降本百分比。驻场方式是 1 名 FDE 与企业人员结对，分阶段从 POC 走到小试点。</span><span class="i-en">No rebuilding of CRM, ERP or MES; add an AI workbench on top of the existing data layer. The main POC parses technical documents; a side test parses 20–30 anonymized overseas order emails offline, without writing to CRM. Two data-security routes: anonymized API first, with dedicated or on-premise inference evaluated in parallel. Three red lines: no automatic quotes to customers, no final origin or tariff rulings, no promised cost-saving percentage. One FDE pairs on-site with company staff, moving in stages from POC to a small pilot.</span></dd></div>
+                <div><dt><span class="i-zh">计划产出</span><span class="i-en">Planned output</span></dt><dd><span class="i-zh">可追溯来源、经人工确认、能直接接入报价的结构化数据，以及 POC 验收报告。方案设定的验收目标：关键字段准确率不低于 85%，来源 100% 可追溯。</span><span class="i-en">Traceable, human-confirmed structured data that feeds quoting, plus a POC acceptance report. Acceptance targets in the plan: at least 85% accuracy on key fields and 100% source traceability.</span></dd></div>
+              </dl>
+            </div>
+            <figure class="case-side">
+              <figcaption><span class="i-zh">主 POC 流程</span><span class="i-en">Main POC flow</span></figcaption>
+              <ol class="flow">
+                <li><b><span class="i-zh">输入样本</span><span class="i-en">Samples in</span></b><span class="i-zh">脱敏图纸、技术资料与历史报价单</span><span class="i-en">Anonymized drawings, documents, past quotes</span></li>
+                <li><b><span class="i-zh">文档解析</span><span class="i-en">Parse</span></b><span class="i-zh">版面与表格识别，逐级追查层级结构</span><span class="i-en">Layout and table recognition, level by level</span></li>
+                <li><b><span class="i-zh">结构化输出</span><span class="i-en">Structure</span></b><span class="i-zh">型号、层级、规格、数量，标注来源页码</span><span class="i-en">Model, level, spec, quantity, with source page</span></li>
+                <li><b><span class="i-zh">置信度标注</span><span class="i-en">Confidence</span></b><span class="i-zh">不确定项全部标红，导出报价字段</span><span class="i-en">Flag every uncertain item; export quote fields</span></li>
+                <li><b><span class="i-zh">人工审核</span><span class="i-en">Human review</span></b><span class="i-zh">工程师逐项确认，AI 不直接对外报价</span><span class="i-en">Engineers confirm each item; AI never quotes directly</span></li>
+              </ol>
+            </figure>
+          </article>
+
+          <!-- 来源：doc-c.docx（策划与实施建议方案，2026-10）。洛哥确认进行中；只写方案，不写结果。 -->
+          <article class="case case-wide">
+            <div class="case-main">
+              <p class="case-tags"><span class="case-tag"><span class="i-zh">企业方案</span><span class="i-en">Client plan</span></span><span class="case-status case-live"><span class="i-zh">进行中</span><span class="i-en">In progress</span></span></p>
+              <h4><span class="i-zh">某大型制造企业：内部 AI 应用创新大赛暨数字员工共创计划</span><span class="i-en">A large manufacturer: internal AI innovation contest and digital-employee co-creation program</span></h4>
+              <dl>
+                <div><dt><span class="i-zh">行业</span><span class="i-en">Industry</span></dt><dd><span class="i-zh">制造业，已有专业数字化团队和企业大学</span><span class="i-en">Manufacturing, with an in-house IT team and corporate university</span></dd></div>
+                <div><dt><span class="i-zh">问题</span><span class="i-en">Problem</span></dt><dd><span class="i-zh">各岗位里分散着大量效率损耗和改进机会，但员工不清楚 AI 和本职工作的关系，好的场景很难被系统地发现和孵化。</span><span class="i-en">Efficiency losses and improvement ideas are scattered across roles, but staff don't see how AI relates to their work, so good use cases are hard to surface and incubate.</span></dd></div>
+                <div><dt><span class="i-zh">方案</span><span class="i-en">Approach</span></dt><dd><span class="i-zh">4 周轻量化赛制：一场启动、一场集中实训、两次线上辅导、一场决赛。设两个赛道：AI 应用创意组和数字员工实践组。评审看业务价值、效果验证、安全可靠和推广潜力，数据泄露、越权连接业务系统、伪造验证结果一票否决。涉及配方、工艺参数和生产控制的应用须专项审批，首届不自动执行关键业务操作。机制参考了多家大型企业公开的赛事做法，规模从简。</span><span class="i-en">A light 4-week format: one kickoff, one hands-on training day, two online coaching sessions, one final. Two tracks: AI application ideas and digital-employee prototypes. Judging covers business value, verified results, safety and reuse potential; data leaks, unauthorized system connections or faked results disqualify outright. Anything touching formulas, process parameters or production control needs separate approval. The format borrows from large companies' public contests, scaled down.</span></dd></div>
+                <div><dt><span class="i-zh">计划产出</span><span class="i-en">Planned output</span></dt><dd><span class="i-zh">项目进行中，以下为方案规划：建议 50–100 名员工参与，沉淀 AI 场景储备库、应用原型、人才名单和赛事总结报告。优秀作品进入试点候选，是否部署由企业另行验证决定，不预设部署数量。</span><span class="i-en">In progress; per the plan, 50–100 staff are suggested; outputs are a use-case library, prototypes, a talent list and a summary report. Strong entries become pilot candidates; deployment is decided separately, with no preset number.</span></dd></div>
+              </dl>
+            </div>
+            <figure class="case-side">
+              <figcaption><span class="i-zh">四周实施路径</span><span class="i-en">Four-week path</span></figcaption>
+              <ol class="flow">
+                <li><b><span class="i-zh">第 1 周 启动与培训</span><span class="i-en">Week 1 · Kickoff &amp; training</span></b><span class="i-zh">发布赛制、集中实训、报名组队</span><span class="i-en">Rules, training, team sign-up</span></li>
+                <li><b><span class="i-zh">第 2 周 选题与初创</span><span class="i-en">Week 2 · Scoping</span></b><span class="i-zh">提交岗位场景，线上答疑</span><span class="i-en">Submit use cases, online Q&amp;A</span></li>
+                <li><b><span class="i-zh">第 3 周 共创与预评</span><span class="i-en">Week 3 · Build &amp; review</span></b><span class="i-zh">做出可展示原型，初选决赛名单</span><span class="i-en">Working prototypes, shortlist</span></li>
+                <li><b><span class="i-zh">第 4 周 决赛与发布</span><span class="i-en">Week 4 · Final</span></b><span class="i-zh">路演评审，形成试点候选建议</span><span class="i-en">Pitches, judging, pilot candidates</span></li>
+              </ol>
+            </figure>
+          </article>
+
+          <!-- 来源：SAndy- 仓库 1 Projects/产业链智能拓客/（SKILL.md、scoring-rules.md 等）。自研工具。 -->
+          <article class="case case-wide">
+            <div class="case-main">
+              <p class="case-tags"><span class="case-tag"><span class="i-zh">自研 Skill</span><span class="i-en">Own skill</span></span></p>
+              <h4><span class="i-zh">产业链智能拓客 Skill</span><span class="i-en">Industry-chain prospecting skill</span></h4>
+              <dl>
+                <div><dt><span class="i-zh">解决什么</span><span class="i-en">What it solves</span></dt><dd><span class="i-zh">做 AI 售前时，常常要从一家龙头企业或一个产业集群出发，找出它的上下游、配套企业和潜在客户，再判断谁最值得先接触、哪里有 AI 自动化机会。靠人工检索既慢，又容易把猜测当成事实。</span><span class="i-en">AI pre-sales often starts from one industry leader or cluster: find its suppliers, partners and potential clients, then decide who to approach first and where AI automation fits. Manual research is slow and easily mistakes guesses for facts.</span></dd></div>
+                <div><dt><span class="i-zh">怎么工作</span><span class="i-en">How it works</span></dt><dd><span class="i-zh">这是我自己写的 AI 技能，让 AI 按固定流程做研究：界定范围、核实种子企业、绘制产业链、筛选候选企业、识别 AI 机会、评分排序、制定拓客方案、列出证据与限制。它有几条硬规矩：每条结论都要附来源链接和检索日期；同处一个园区或名单不算供应关系；事实、推断、假设和未知分开标注；没有直接证据的 AI 机会只能写成「机会假设」；联系人只用官方公开渠道，不代发消息。</span><span class="i-en">A skill I wrote that has AI follow a fixed research flow: scope, verify the seed company, map the chain, screen candidates, spot AI opportunities, score and rank, plan outreach, list evidence and limits. Hard rules: every claim carries a source link and date; sharing a park or a list is not a supply relationship; facts, inferences, assumptions and unknowns are labeled separately; AI opportunities without direct evidence stay "hypotheses"; contacts come only from official public channels, and nothing is sent on the user's behalf.</span></dd></div>
+                <div><dt><span class="i-zh">产出什么</span><span class="i-en">What it produces</span></dt><dd><span class="i-zh">一份可复查的研究与拓客报告：范围说明、结论摘要、产业链结构、候选客户排序、AI 机会卡片、行动计划和来源清单。目前是 V1.0，配有方法说明、评分规则、来源核验规范和报告模板，已用它做过一份样例报告，还在持续迭代。</span><span class="i-en">A checkable research and outreach report: scope, summary, chain map, ranked candidates, AI opportunity cards, action plan and sources. It is at V1.0 with a method guide, scoring rules, source-check rules and a report template, has produced one sample report, and is still evolving.</span></dd></div>
+              </dl>
+            </div>
+            <figure class="case-side">
+              <figcaption><span class="i-zh">拓客优先级评分（百分制）</span><span class="i-en">Priority score (out of 100)</span></figcaption>
+              <ul class="score">
+                <li><span class="i-zh">自动化机会匹配</span><span class="i-en">Automation fit</span><b>25</b></li>
+                <li><span class="i-zh">客户画像与业务匹配</span><span class="i-en">Profile fit</span><b>20</b></li>
+                <li><span class="i-zh">可验证业务价值</span><span class="i-en">Verifiable value</span><b>20</b></li>
+                <li><span class="i-zh">实施准备度</span><span class="i-en">Readiness</span><b>15</b></li>
+                <li><span class="i-zh">触达与采购路径</span><span class="i-en">Access &amp; buying path</span><b>10</b></li>
+                <li><span class="i-zh">时机与触发信号</span><span class="i-en">Timing signals</span><b>10</b></li>
+              </ul>
+              <p class="score-note"><span class="i-zh">每项按证据强弱打 0–4 级，查不到证据记为「未知」，按 0 分计入，不乐观猜测。同时给出资料完整度和置信度，分为 A、B、C 三层。</span><span class="i-en">Each dimension is graded 0–4 by evidence strength; "unknown" counts as zero rather than an optimistic guess. Evidence coverage and confidence are shown, with A/B/C tiers.</span></p>
+            </figure>
+          </article>
+
+          <article class="case case-half">
+            <p class="case-tags"><span class="case-tag"><span class="i-zh">自用实践</span><span class="i-en">Built for myself</span></span></p>
+            <h4><span class="i-zh">超级大脑：多 Agent 共享知识库</span><span class="i-en">Superbrain: a shared knowledge base for many agents</span></h4>
+            <dl>
+              <div><dt><span class="i-zh">问题</span><span class="i-en">Problem</span></dt><dd><span class="i-zh">同时用好几个 AI 助理，每个都要重新介绍一遍自己和项目，经验散落在各个对话里。</span><span class="i-en">Working with several AI assistants meant re-explaining myself and every project to each one, with lessons scattered across chats.</span></dd></div>
+              <div><dt><span class="i-zh">做法</span><span class="i-en">Approach</span></dt><dd><span class="i-zh">用 GitHub 私有仓库加 Obsidian 搭一个 Markdown 知识库作为唯一事实来源，按项目、领域、资源、归档分类。所有 Agent 从同一份规则文件进入，按固定顺序读，干完活自动回写复盘和可复用技能；客户资料默认脱敏。</span><span class="i-en">A Markdown knowledge base in a private GitHub repo plus Obsidian, used as the single source of truth and organized by projects, areas, resources and archives. Every agent enters through one rules file, reads in a fixed order, and writes back reviews and reusable skills after each task. Client material is anonymized by default.</span></dd></div>
+              <div><dt><span class="i-zh">结果</span><span class="i-en">Result</span></dt><dd><span class="i-zh">Codex、Cursor、Grok Bot 等多个 Agent 已接入，统一读写同一个大脑。模型可以换，大脑留下来。</span><span class="i-en">Codex, Cursor, Grok Bot and other agents now read and write the same brain. Models can change; the brain stays.</span></dd></div>
+            </dl>
+          </article>
+          <article class="case case-half">
+            <p class="case-tags"><span class="case-tag"><span class="i-zh">自用实践</span><span class="i-en">Built for myself</span></span></p>
+            <h4><span class="i-zh">AI 数字员工团队</span><span class="i-en">An AI staff team</span></h4>
+            <dl>
+              <div><dt><span class="i-zh">问题</span><span class="i-en">Problem</span></dt><dd><span class="i-zh">一个人做 FDE 和 GEO，售前、方案、开发、验收、表达都要兼顾。</span><span class="i-en">Running FDE and GEO solo means covering pre-sales, solution design, engineering, QA and communication at once.</span></dd></div>
+              <div><dt><span class="i-zh">做法</span><span class="i-en">Approach</span></dt><dd><span class="i-zh">按岗位组建 16 个 AI 数字员工：总执行官、调度台、售前顾问、解决方案架构师、提示词与 Agent 工程师、资料与知识库工程师、测试验收官、表达教练、贴身小助理，以及由主席和 7 位模拟董事组成的私董会，专门审客户、项目和报价决策。早晚有监工检查，每周自动出周报。</span><span class="i-en">16 AI staff organized by role: chief executive, dispatcher, pre-sales advisor, solution architect, prompt &amp; agent engineer, knowledge base engineer, QA lead, communication coach, personal assistant, and a private board (a chair plus 7 simulated directors) that reviews client, project and pricing decisions. Morning and evening check-ins and an automatic weekly report.</span></dd></div>
+              <div><dt><span class="i-zh">结果</span><span class="i-en">Result</span></dt><dd><span class="i-zh">团队共用超级大脑，开工前读同一份背景，分工协作日常运转中。</span><span class="i-en">The team shares the Superbrain, starts every task from the same context, and runs day to day.</span></dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+
+      <!-- ============ GEO ============ -->
+      <!-- 来源：GEO.md + geo-doubao-1.jpg / geo-doubao-2.jpg（豆包回答截图，已裁去其他公司名与价格）+ 洛哥确认 -->
+      <div class="case-group">
+        <h3 class="cg-title">GEO</h3>
+        <div class="cases">
+          <figure class="case case-proof">
+            <img src="assets/img/geo-doubao-query.jpg" width="900" height="621" loading="lazy" alt="豆包截图：用户提问「西安geo优化」，豆包给出《西安 GEO 生成式引擎优化 完整行业解读》">
+            <figcaption><span class="i-zh">在豆包里搜「西安geo优化」，它给出了一份行业解读，并在「一线个人实战操盘手」一节里主动推荐了下面两位。截图已裁去与案例无关的部分。</span><span class="i-en">Asking Doubao "Xi'an GEO optimization" returns an industry overview, which recommends the two people below under "hands-on individual practitioners". Screenshots are cropped to the relevant part.</span></figcaption>
+          </figure>
+          <article class="case">
+            <p class="case-tags"><span class="case-tag"><span class="i-zh">给自己做的 GEO</span><span class="i-en">GEO for myself</span></span></p>
+            <h4><span class="i-zh">曲若暚（我本人）</span><span class="i-en">Scarlett Quincy (me)</span></h4>
+            <dl>
+              <div><dt><span class="i-zh">问题</span><span class="i-en">Problem</span></dt><dd><span class="i-zh">我自己就是 GEO 操盘手。潜在客户问 AI「西安 GEO 优化」时，AI 得知道我是谁、擅长什么。</span><span class="i-en">I'm a GEO practitioner myself. When prospects ask AI about GEO in Xi'an, it needs to know who I am and what I do.</span></dd></div>
+              <div><dt><span class="i-zh">做法</span><span class="i-en">Approach</span></dt><dd><span class="i-zh">把自己当第一个客户：统一个人定位和表述，用第一人称叙事内容运营自己的 GEO 个人 IP，按下面的方法持续布局。</span><span class="i-en">I treated myself as the first client: one consistent positioning, first-person narrative content for my own GEO brand, built up over time using the method below.</span></dd></div>
+              <div><dt><span class="i-zh">结果</span><span class="i-en">Result</span></dt><dd><span class="i-zh">豆包在「西安 GEO 优化」的回答中把我列为「一线个人实战操盘手」第一位，描述为西安专职 GEO 落地操盘人，深耕石化、煤矿、文创国企专项优化，擅长政企合规内容创作（豆包写作「曲若瑶」）。</span><span class="i-en">Doubao's answer lists me first among hands-on individual practitioners: a full-time GEO operator in Xi'an focused on petrochemical, coal and cultural state-owned enterprises, skilled in compliant government and enterprise content (spelled 曲若瑶 by Doubao).</span></dd></div>
+            </dl>
+            <img class="case-shot" src="assets/img/geo-doubao-quruoyao.jpg" width="900" height="582" loading="lazy" alt="豆包回答截图：一线个人实战操盘手第 1 位曲若瑶及其定位描述">
+          </article>
+          <article class="case">
+            <p class="case-tags"><span class="case-tag"><span class="i-zh">客户案例</span><span class="i-en">Client case</span></span><span class="case-status"><span class="i-zh">经本人同意展示</span><span class="i-en">Shown with permission</span></span></p>
+            <h4><span class="i-zh">杨攀峰</span><span class="i-en">Yang Panfeng</span></h4>
+            <dl>
+              <div><dt><span class="i-zh">问题</span><span class="i-en">Problem</span></dt><dd><span class="i-zh">做 AI 讲师和课程的从业者，希望 AI 搜索在相关问答里能识别并推荐他的业务。</span><span class="i-en">An AI instructor and course provider who wanted AI search to recognize and recommend his work.</span></dd></div>
+              <div><dt><span class="i-zh">做法</span><span class="i-en">Approach</span></dt><dd><span class="i-zh">帮他确定在 AI 搜索里的定位表述，按同一套 GEO 方法布局内容。</span><span class="i-en">Defined how he should be described in AI search and built content with the same GEO method.</span></dd></div>
+              <div><dt><span class="i-zh">结果</span><span class="i-en">Result</span></dt><dd><span class="i-zh">在同一个回答里位列「一线个人实战操盘手」第二位，定位被描述为结合 AI 讲师赛道配套 GEO 运营，面向创业者和技术从业者做课程加优化配套服务。</span><span class="i-en">Listed second in the same answer, described as combining AI teaching with GEO, offering courses and optimization to founders and tech professionals.</span></dd></div>
+            </dl>
+            <img class="case-shot" src="assets/img/geo-doubao-yangpanfeng.jpg" width="900" height="499" loading="lazy" alt="豆包回答截图：一线个人实战操盘手第 2 位杨攀峰及其定位描述">
+          </article>
+          <article class="case case-method">
+            <p class="case-tags"><span class="case-tag"><span class="i-zh">方法论</span><span class="i-en">Method</span></span></p>
+            <h4><span class="i-zh">我做 GEO 的方法</span><span class="i-en">How I approach GEO</span></h4>
+            <ol class="geo-steps">
+              <li><span class="i-zh">整理目标用户会怎么问 AI，按真实口语问法建一个问题库，而不是堆关键词。</span><span class="i-en">Collect how real people phrase questions to AI and build a question bank, instead of stuffing keywords.</span></li>
+              <li><span class="i-zh">统一品牌名称、业务描述和服务范围，让全网只有一个版本。</span><span class="i-en">Keep the brand name, description and scope identical everywhere.</span></li>
+              <li><span class="i-zh">把内容写成问答、对照表和分点短句，让 AI 容易读懂和摘取。</span><span class="i-en">Write in Q&amp;A, comparison tables and short points that AI can parse and quote.</span></li>
+              <li><span class="i-zh">补齐真实的资质、案例和口碑，不造假；虚假信息只会被 AI 降权。</span><span class="i-en">Back it with real credentials, cases and reviews; anything fake gets downranked.</span></li>
+              <li><span class="i-zh">在 AI 常引用的平台分发，用第一人称讲真实经历，定期更新并复查效果。</span><span class="i-en">Publish where AI tends to cite, tell real first-person stories, update regularly and recheck.</span></li>
+            </ol>
+          </article>
+        </div>
+      </div>
+
+      <!-- ============ AI 回忆录 ============ -->
+      <!-- 来源：回忆录.md、deck-b.pptx（产品方案）、memoir-cover/back.jpg。洛哥确认：样例作品，人物虚构。 -->
+      <div class="case-group">
+        <h3 class="cg-title"><span class="i-zh">AI 回忆录 · 用 AI 保存情感记忆</span><span class="i-en">AI memoir · preserving memories with AI</span></h3>
+        <div class="cases">
+          <article class="case case-wide case-memoir">
+            <div class="case-main">
+              <p class="case-tags"><span class="case-tag"><span class="i-zh">样例作品</span><span class="i-en">Sample work</span></span><span class="case-status"><span class="i-zh">人物为虚构，用于展示成品效果</span><span class="i-en">Fictional subject, made to show the finished format</span></span></p>
+              <h4><span class="i-zh">《院子里的那把小凳 · 林秀兰的故事》（1963—2025）</span><span class="i-en"><i>The Little Stool in the Yard: Lin Xiulan's Story</i> (1963–2025)</span></h4>
+              <dl>
+                <div><dt><span class="i-zh">是什么</span><span class="i-en">What</span></dt><dd><span class="i-zh">一本样例回忆录：以虚构人物林秀兰 1963 年到 2025 年的人生为题材，展示成书的样子。</span><span class="i-en">A sample memoir about the fictional Lin Xiulan (1963–2025), showing what a finished book looks like.</span></dd></div>
+                <div><dt><span class="i-zh">怎么做</span><span class="i-en">How</span></dt><dd><span class="i-zh">展示 AI 人生回忆录的成品形态：故事化的章节、AI 场景插画和精装封面。真实项目从真人访谈开始。</span><span class="i-en">It shows the AI memoir format: story-style chapters, AI scene illustrations and a hardcover design. Real projects start with in-person interviews.</span></dd></div>
+                <div><dt><span class="i-zh">成品</span><span class="i-en">Result</span></dt><dd><span class="i-zh">深绿布面、金色书名，封面和封底是院子里那把旧木凳的场景插画。封底写着：「把日子讲给你听，也把记忆好好留下。」</span><span class="i-en">Deep green cloth with a gold title; front and back show illustrated scenes of the old wooden stool in the yard. The back reads: "Let me tell you about the days, and keep the memories well."</span></dd></div>
+              </dl>
+            </div>
+            <div class="memoir-imgs">
+              <figure><img src="assets/img/memoir-cover.jpg" width="720" height="972" loading="lazy" alt="样例回忆录《院子里的那把小凳·林秀兰的故事》封面（虚构人物）"><figcaption><span class="i-zh">封面</span><span class="i-en">Front</span></figcaption></figure>
+              <figure><img src="assets/img/memoir-back.jpg" width="720" height="975" loading="lazy" alt="样例回忆录《院子里的那把小凳》封底，寄语：把日子讲给你听，也把记忆好好留下"><figcaption><span class="i-zh">封底</span><span class="i-en">Back</span></figcaption></figure>
+            </div>
+          </article>
+          <article class="case case-full">
+            <p class="case-tags"><span class="case-tag"><span class="i-zh">相关实践</span><span class="i-en">Related practice</span></span></p>
+            <h4><span class="i-zh">毛孩子回来了：开源桌宠</span><span class="i-en">Furkid Is Back: an open-source desktop pet</span></h4>
+            <dl>
+              <div><dt><span class="i-zh">起点</span><span class="i-en">Why</span></dt><dd><span class="i-zh">第一只宠物是我已故的英国斗牛犬「五百万」。</span><span class="i-en">The first pet is Five Million, my late English bulldog.</span></dd></div>
+              <div><dt><span class="i-zh">做法</span><span class="i-en">Approach</span></dt><dd><span class="i-zh">用 AI 还原它的样子、发呆的神态和呼噜声，让它重新待在电脑桌面上。</span><span class="i-en">Using AI to bring back how he looked, his daydreaming and his snoring, right on the desktop.</span></dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </div>
+      <p class="slide-foot" aria-hidden="true"><span class="i-zh">项目与实践</span><span class="i-en">Projects</span></p>
+  </section>
+
+  <!-- 经历时间线 -->
+  <section class="sec" id="experience" aria-labelledby="exp-title">
+    <div class="wrap split">
+      <h2 id="exp-title"><span class="i-zh">经历</span><span class="i-en">Experience</span><span class="sub"><span class="i-zh">2011 年至今</span><span class="i-en">2011 to now</span></span></h2>
+      <ol class="timeline">
+        <li class="now">
+          <p class="tl-year"><span class="i-zh">现在</span><span class="i-en">Now</span></p>
+          <h3><span class="i-zh">FDE 前沿部署工程师</span><span class="i-en">Forward Deployed Engineer</span></h3>
+          <p><span class="i-zh">为企业做 AI 落地实施，同时承接 GEO 业务。</span><span class="i-en">Hands-on enterprise AI deployment, alongside GEO work.</span></p>
+        </li>
+        <li>
+          <p class="tl-year">2024 – <span class="i-zh">至今</span><span class="i-en">present</span></p>
+          <h3><span class="i-zh">GEO 策略操盘手（独立执业）</span><span class="i-en">GEO strategist (independent)</span></h3>
+          <p><span class="i-zh">为个人和客户品牌制定并执行 GEO 策略，产出中英双语内容，运营自己的 GEO 个人 IP。</span><span class="i-en">GEO strategy and execution for individuals and brands; bilingual content; building my own GEO personal brand.</span></p>
+        </li>
+        <li>
+          <p class="tl-year">2019 – <span class="i-zh">至今</span><span class="i-en">present</span></p>
+          <h3><span class="i-zh">AI 行业多重角色</span><span class="i-en">AI industry, multiple roles</span></h3>
+          <p><span class="i-zh">AI 项目经理、AI 售前解决方案工程师、AI 需求分析工程师、AI 硬件解决方案工程师、高级 AI 训练师。主导企业级 AI 部署，设计需求分析框架，开发训练方案与数据集。</span><span class="i-en">AI Project Manager, Pre-Sales Solutions Engineer, Demand Analysis Engineer, Hardware Solutions Engineer, Senior AI Trainer. Led enterprise AI deployments, built demand analysis frameworks, developed training programs and datasets.</span></p>
+        </li>
+        <li>
+          <p class="tl-year">2017 – 2018</p>
+          <h3><span class="i-zh">陕西瑞浦泰华影视传媒 · 兼职市场总监</span><span class="i-en">Shaanxi Ruiputaihua Film &amp; Media · Part-time Marketing Director</span></h3>
+          <p><span class="i-zh">电视剧与企业宣传片海外发行；组建驻日团队，负责制作监督与招商。</span><span class="i-en">Overseas distribution of TV dramas and corporate films; built a Japan team for production oversight and investment.</span></p>
+        </li>
+        <li>
+          <p class="tl-year">2015 – 2016</p>
+          <h3><span class="i-zh">西安锦翔通用航空 · 市场总监</span><span class="i-en">Xi'an Jinxiang General Aviation · Marketing Director</span></h3>
+          <p><span class="i-zh">直升机销售与租赁、空中婚礼、飞行体验与企业活动的市场工作；高净值客户运营。</span><span class="i-en">Marketing for helicopter sales and leasing, aerial weddings, flight experiences and corporate events; high-net-worth clients.</span></p>
+        </li>
+        <li>
+          <p class="tl-year">2013 – 2014</p>
+          <h3><span class="i-zh">鼎立影视文化传媒 · 项目总监</span><span class="i-en">Dingli Film &amp; Cultural Media · Project Director</span></h3>
+          <p><span class="i-zh">影视项目立项、市场调研、产品模式设计；团队搭建、流程与绩效标准。</span><span class="i-en">Project initiation, market research and product design; built the team, workflows and performance standards.</span></p>
+        </li>
+        <li>
+          <p class="tl-year">2012 – 2018</p>
+          <h3><span class="i-zh">中日进出口贸易与媒体运营 · 独立贸易商、媒体顾问</span><span class="i-en">Japan–China trade &amp; media · Independent trader, media consultant</span></h3>
+          <p><span class="i-zh">在日本六年，做中日贸易、影视制作协调和中日文化活动，是中日企业之间的跨文化桥梁。</span><span class="i-en">Six years in Japan across trade, film production coordination and cultural events, bridging Chinese and Japanese companies.</span></p>
+        </li>
+        <li>
+          <p class="tl-year">2011 – 2018</p>
+          <h3><span class="i-zh">第十三号花园（西安色庭花艺）· 创始人</span><span class="i-en">Garden No. 13 (Xi'an Séting Floral Arts) · Founder</span></h3>
+          <p><span class="i-zh">20 岁创业，以日式花艺美学为核心的精品花店，独立管理品牌、运营、供应链与团队。</span><span class="i-en">Founded at 20: a Japanese ikebana–inspired floral boutique; ran brand, operations, supply chain and team.</span></p>
+        </li>
+      </ol>
+    </div>
+      <p class="slide-foot" aria-hidden="true"><span class="i-zh">经历</span><span class="i-en">Experience</span></p>
+  </section>
+
+  <!-- 能力与资质 -->
+  <section class="sec sec-tint" id="skills" aria-labelledby="skills-title">
+    <div class="wrap split">
+      <h2 id="skills-title"><span class="i-zh">能力与资质</span><span class="i-en">Skills &amp; credentials</span><span class="sub"><span class="i-zh">技术、内容与跨文化</span><span class="i-en">Technology, content, cross-cultural</span></span></h2>
+      <div class="skills">
+        <div class="skill-group">
+          <h3><span class="i-zh">AI 落地</span><span class="i-en">AI deployment</span></h3>
+          <ul class="tags">
+            <li><span class="i-zh">企业级 AI 部署</span><span class="i-en">Enterprise AI deployment</span></li>
+            <li><span class="i-zh">AI 项目管理</span><span class="i-en">AI project management</span></li>
+            <li><span class="i-zh">售前解决方案</span><span class="i-en">Pre-sales solutions</span></li>
+            <li><span class="i-zh">需求分析</span><span class="i-en">Demand analysis</span></li>
+            <li><span class="i-zh">AI 训练</span><span class="i-en">AI training</span></li>
+            <li><span class="i-zh">提示词工程</span><span class="i-en">Prompt engineering</span></li>
+            <li><span class="i-zh">硬件 AI 集成</span><span class="i-en">Hardware AI integration</span></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3><span class="i-zh">GEO 与内容</span><span class="i-en">GEO &amp; content</span></h3>
+          <ul class="tags">
+            <li><span class="i-zh">GEO / AI 搜索可见度</span><span class="i-en">GEO / AI search visibility</span></li>
+            <li><span class="i-zh">大模型内容策略</span><span class="i-en">LLM content strategy</span></li>
+            <li><span class="i-zh">个人 IP 打造</span><span class="i-en">Personal brand building</span></li>
+            <li><span class="i-zh">抖音 / 知乎 / 百度平台策略</span><span class="i-en">Douyin / Zhihu / Baidu strategy</span></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3><span class="i-zh">业务与沟通</span><span class="i-en">Business &amp; communication</span></h3>
+          <ul class="tags">
+            <li><span class="i-zh">市场营销与招商</span><span class="i-en">Marketing &amp; investment attraction</span></li>
+            <li><span class="i-zh">品牌建设</span><span class="i-en">Brand building</span></li>
+            <li><span class="i-zh">团队搭建</span><span class="i-en">Team building</span></li>
+            <li><span class="i-zh">中日跨文化沟通</span><span class="i-en">China–Japan cross-cultural work</span></li>
+          </ul>
+        </div>
+        <div class="creds">
+          <h3><span class="i-zh">教育与资质</span><span class="i-en">Education &amp; certifications</span></h3>
+          <ul>
+            <li><span class="i-zh">硕士，艺术、媒体、文化传播与广告方向</span><span class="i-en">Master's degree, Arts, Media, Cultural Communication &amp; Advertising</span></li>
+            <li><span class="i-zh">AI 项目管理认证</span><span class="i-en">AI Project Management Certification</span></li>
+            <li><span class="i-zh">售前与解决方案工程（AI / 企业技术方向）</span><span class="i-en">Pre-Sales &amp; Solutions Engineering (AI / enterprise technology)</span></li>
+            <li><span class="i-zh">高级 AI 训练师资质</span><span class="i-en">Senior AI Trainer Qualification</span></li>
+          </ul>
+          <h3><span class="i-zh">语言</span><span class="i-en">Languages</span></h3>
+          <ul>
+            <li><span class="i-zh">中文（母语）· 日语（熟练）· 英语（工作沟通）</span><span class="i-en">Mandarin (native) · Japanese (proficient) · English (functional)</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <p class="slide-foot" aria-hidden="true"><span class="i-zh">能力与资质</span><span class="i-en">Skills</span></p>
+  </section>
+
+  <!-- 联系 -->
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-in">
+      <div>
+        <h2 id="contact-title"><span class="i-zh">聊聊你的 AI 落地</span><span class="i-en">Let's talk about your AI rollout</span><span class="sub"><span class="i-zh">从一次对话开始</span><span class="i-en">It starts with a conversation</span></span></h2>
+        <p><span class="i-zh">不管是想把 AI 用进业务，还是想让 AI 搜索找到你的品牌，都可以先聊一次。</span><span class="i-en">Whether you want AI working inside your business or want AI search to find your brand, start with a conversation.</span></p>
+      </div>
+      <div class="contact-side">
+      <ul class="contact-list">
+        <li><span class="c-k"><span class="i-zh">邮箱</span><span class="i-en">Email</span></span><span class="c-v"><a class="js-mail" data-u="qq82295464" data-d="gmail.com" href="#contact"></a><noscript>qq82295464 [at] gmail.com</noscript></span></li>
+        <li><span class="c-k"><span class="i-zh">抖音</span><span class="i-en">Douyin</span></span><span class="c-v"><span class="i-zh">抖音号 </span><span class="i-en">ID </span><span class="dy-id">dyx4tfrbggm5</span><button type="button" class="copy-btn" data-copy="dyx4tfrbggm5"><span class="i-zh">复制</span><span class="i-en">Copy</span></button></span></li>
+        <li><span class="c-k">X</span><span class="c-v"><a href="https://x.com/Sandy16662221" target="_blank" rel="noopener me">@Sandy16662221</a></span></li>
+      </ul>
+      <figure class="qr-card">
+        <img src="assets/img/wechat-qr.jpg" width="480" height="482" alt="曲若暚的微信二维码 / WeChat QR code" loading="lazy">
+        <figcaption><span class="c-k"><span class="i-zh">微信</span><span class="i-en">WeChat</span></span><span class="i-zh">扫码加微信</span><span class="i-en">Scan to add on WeChat</span></figcaption>
+      </figure>
+      </div>
+    </div>
+      <p class="slide-foot" aria-hidden="true"><span class="i-zh">联系</span><span class="i-en">Contact</span></p>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p>© 2026 曲若暚 Scarlett Quincy</p>
+    <p><span class="i-zh">FDE 前沿部署工程师 · GEO · AI 回忆录</span><span class="i-en">FDE · GEO · AI memoir</span></p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

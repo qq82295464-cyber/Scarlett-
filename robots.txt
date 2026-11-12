@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qq82295464-cyber.github.io/Scarlett-/sitemap.xml
